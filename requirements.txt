@@ -1,0 +1,30 @@
+# EdgeDrive Core Dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+pydantic>=2.0.0
+pyyaml>=6.0
+structlog>=23.0.0
+
+# ONNX Optimization (Milestone 2)
+onnx>=1.14.0
+onnxruntime>=1.15.0
+
+# API Server (Milestone 3)
+fastapi>=0.100.0
+uvicorn>=0.23.0
+python-multipart>=0.0.6
+
+# Dashboard (Milestone 3)
+streamlit>=1.25.0
+
+# MLOps (Milestone 4)
+mlflow>=2.0.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Observability (Milestone 5)
+prometheus-client>=0.17.0
